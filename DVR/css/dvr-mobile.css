@@ -1,0 +1,124 @@
+/* homepage */
+#campus-container {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+#campus-live {
+	list-style: none;
+	text-align: center;
+}
+
+#campus-live li, #campus-recorded {
+	background: -moz-linear-gradient(top, #404040 0%, #323232 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#404040), color-stop(100%,#323232));
+	background: -webkit-linear-gradient(top, #404040 0%,#323232 100%); 
+	background: -o-linear-gradient(top, #404040 0%,#323232 100%); 
+	background: -ms-linear-gradient(top, #404040 0%,#323232 100%);  
+	background: linear-gradient(top, #404040 0%,#323232 100%);
+	border: 1px solid #6f6f6f;
+	border-radius: 10px;
+	padding: 6px 24px 12px 24px;
+	width: 520px;
+	margin-right: 35px;	
+	margin-bottom: 20px;
+	position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#campus-live li:last-child {
+	margin-right: 0;
+}
+
+.audio-toggle i:before {
+	content: "\f026"; 
+}
+
+.audio-toggle.enabled i:before {
+	content: "\f028";
+}
+
+.audio-toggle span:before, .audio-toggle.muted span:before {
+	content: "Listen";
+}
+
+.audio-toggle.enabled span:before {
+	content: "Mute";
+}
+
+.nav-list.title li a {
+   padding:7px;
+   font-family: DINWebCondensedLight,Helvetica,Arial,sans-serif;
+   font-size: 13px san-serif;
+}
+
+.content 
+{
+   padding-top: 7px;
+   padding-bottom:5px;
+   font-family: DINWebCondensedLight,Helvetica,Arial,sans-serif;
+   font-size: 13px san-serif;
+}
+
+.form 
+{
+    width: 375px;
+    padding:10px 10px; 
+    text-align: center;
+}
+
+.txtfield 
+{
+    align: center;
+    width:249px;
+    background-color: white;
+    color: Black;
+    border-style:none;
+    margin-top: 2px;
+    vertical-align: middle;
+    font-family: DINWebCondensedLight,Helvetica,Arial,sans-serif;
+    font-size: 13px san-serif;
+}
+.label {
+    display: inline;
+    text-align: left;
+}
+
+.btn.small.multi  {
+    min-width: 25px;
+}
+
+.btn-group > .btn:first-child {
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.btn-group > .btn:last-child {
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.btn.single {
+    min-width: 50px; 
+    border-radius: 6px 6px 6px 6px; 
+    margin-top: 5px;  
+    margin-bottom: 5px;
+}
+
+.stich.center {
+    text-align:center;
+}
+
+a.live-stream {
+    text-align: center;
+    width: 60%;
+    display:block;
+    width:520px;
+    height:330px
+}
+
+.form-horizontal .controls {
+    text-align: center;
+    margin:0;
+}
